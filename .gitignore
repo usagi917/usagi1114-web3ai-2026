@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Local project folders
+x402-handshake/
+
+# Environment variables and local secrets
+.env
+.env.*
+*.local
+!.env.example
+!.env.*.example
+
+# Build and test output
+dist/
+build/
+coverage/
+.turbo/
+.next/
+out/
+
+# Logs
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager artifacts
+package-lock.json
+yarn.lock
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Claude Code local state
+.claude/
