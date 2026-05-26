@@ -1,0 +1,38 @@
+{
+  "name": "recall",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Recall v0.1 MVP — ローカル memo vault + Claude Code 向け smart search MCP (recall add / mcp serve / init)",
+  "type": "module",
+  "bin": {
+    "recall": "bin/recall.mjs"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "tsx": "^4.22.3",
+    "yaml": "^2.7.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}

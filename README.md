@@ -9,8 +9,9 @@
 ```
 lectures/
 ├── lecture3/    第3回(2026-05-07)— 自分のやりたいことを深掘って設計する(VPC)
-├── lecture4/    第4回(将来追加)
 └── lecture[N]/  各回が累積
+
+lecture4/        第4回 — Recall v0.1 MVP(VPC プロダクト実装・CLI + MCP)
 ```
 
 ---
@@ -42,7 +43,7 @@ lectures/
 | 回 | 日付 | テーマ | 詳細 |
 |---|---|---|---|
 | 3 | 2026-05-07 | 自分のやりたいことを深掘って設計する(VPC) | [`lectures/lecture3/`](./lectures/lecture3/) |
-| 4 | 2026-05-14 | 技術① AIの全体像 | (準備中) |
+| 4 | 2026-05-14 | 技術① AIの全体像 | [`lecture4/`](./lecture4/) — Recall v0.1 MVP(VPC プロダクト実装・CLI + MCP) |
 
 ---
 
